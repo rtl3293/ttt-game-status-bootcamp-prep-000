@@ -79,4 +79,4 @@ end
 
 board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
 
-puts won?(board)
+puts over?(board)
