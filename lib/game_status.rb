@@ -42,10 +42,10 @@ end
 
 def full?(board)
   available = board.any?{| cells | cells == " "}
-  if available == true
-    false
-  else
+  if available != true
     true
+  else
+    false
   end
 end
 
