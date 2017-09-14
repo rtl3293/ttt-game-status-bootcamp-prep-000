@@ -52,7 +52,7 @@ end
 def draw?(board)
   full = full?(board)
   won = won?(board)
-  puts won
+  puts full
   if (full == true) && (won.is_a?(Array))
     false
   elsif (full == false)  && (won.is_a?(Array))
