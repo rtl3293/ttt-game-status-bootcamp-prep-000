@@ -35,7 +35,7 @@ def won?(board)
       end
     end
     if winner == false
-      false
+      puts false
     end
   end
 end
