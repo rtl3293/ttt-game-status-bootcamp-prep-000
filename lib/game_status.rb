@@ -76,6 +76,6 @@ end
 
 
 
-board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
 
-over?(board)
+
+
