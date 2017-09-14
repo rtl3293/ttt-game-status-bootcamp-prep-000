@@ -65,8 +65,6 @@ end
 def over?(board)
   draw = draw?(board)
   won = won?(board)
-  puts draw
-  puts won
   if draw == true
     true
   elsif (won.is_a?(Array))
