@@ -55,7 +55,7 @@ def draw?(board)
   puts full
   if (full == true) && (won.is_a?(Array))
     false
-  elsif (full == false)  
+  elsif (full == false)
     false
   else
     true
@@ -65,7 +65,6 @@ end
 def over?(board)
   draw = draw?(board)
   won = won?(board)
-  puts draw
   if draw == true
     true
   elsif (won.is_a?(Array))
